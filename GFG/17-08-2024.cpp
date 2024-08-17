@@ -5,10 +5,9 @@ class Solution {
     // return the Product vector P that hold product except self at each index
     vector<long long int> productExceptSelf(vector<long long int>& nums) {
 
-        // code here
         int n = nums.size();
         vector<long long int>left(n,1);
-        vector<long long int>right(n,1);
+        vector<long long int>right(n,1); 
         long long int mul = 1;
         for(int i=0;i<n;i++){
             left[i] = mul;
