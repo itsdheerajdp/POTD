@@ -1,4 +1,4 @@
-// Split an array into two equal Sum subarrays.
+// Split an array into two equal Sum subarrays
 class Solution {
   public:
     bool canSplit(vector<int>& arr) {
