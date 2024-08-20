@@ -1,8 +1,7 @@
-// Split an array into two equal Sum subarrays
+// Split an array into two equal Sum subarrays.
 class Solution {
   public:
     bool canSplit(vector<int>& arr) {
-        // code here
         int sum = accumulate(arr.begin(),arr.end(),0);
         if(sum%2!=0)
             return false;
@@ -14,6 +13,5 @@ class Solution {
                 return true;
         }
         return false;
-    
     }
 };
