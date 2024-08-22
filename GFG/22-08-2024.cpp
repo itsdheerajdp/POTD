@@ -1,4 +1,4 @@
-// Alien Dictionar
+// Alien Dictionary
 
 class Solution{
     public:
